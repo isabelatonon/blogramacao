@@ -28,7 +28,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.7)
-    ansi (1.5.0)
     arel (5.0.1.20140414130214)
     aws-sdk (2.0.22)
       aws-sdk-resources (= 2.0.22)
@@ -94,9 +93,6 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.5)
     dotenv (1.0.2)
-    elasticsearch-extensions (0.0.17)
-      ansi
-      ruby-prof
     erubis (2.7.0)
     execjs (2.3.0)
     factory_girl (4.5.0)
@@ -222,7 +218,6 @@ GEM
       rspec-mocks (~> 3.0.0)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.4)
-    ruby-prof (0.15.3)
     rubyzip (1.1.7)
     sass (3.2.19)
     sass-rails (4.0.5)
@@ -311,7 +306,6 @@ DEPENDENCIES
   database_cleaner
   devise
   dotenv
-  elasticsearch-extensions
   factory_girl_rails
   foreman
   guard-rspec

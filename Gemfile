@@ -30,7 +30,6 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'launchy'
   gem 'selenium-webdriver'
-  gem 'elasticsearch-extensions'
 end
 gem "codeclimate-test-reporter", group: :test, require: nil
 
